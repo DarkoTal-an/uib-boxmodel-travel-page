@@ -48,21 +48,23 @@ li a:hover {
     margin: 185px 15px 45px 15px;
 }
 
-blockquote {
+footer {
     background-color: lightgrey;
     padding: 25px;
-    margin: 45px 15px;
+    margin: 105px 15px 0px 15px;
     text-align: right;
+    
 }
 
-/* neededthe negativ margin because of the backgr. img */
+/* needed the negativ margin because of the backgr. img */
 .background {
     width: 100%;
     height: 100%;
-    background-image: url(../images/beach.jpg);
-    /* background-position: center; */
-    background-size: cover;
+    /* background-image: url(../images/beach.jpg); */
+    /* background-position: right;
+    background-size: contain; */
     /* margin-top:-15px ; */
+    
 }
 
 .div-left {
@@ -70,6 +72,19 @@ blockquote {
     width: 50%;
     height: 100%;
     background-color: white;
+
+}
+
+/* option is with float-not sure if it's good to implement */
+.div-right {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: orange;
+    background-image: url(../images/beach.jpg);
+    background-size: cover;
+    background-position: center;
+
 
 }
 
