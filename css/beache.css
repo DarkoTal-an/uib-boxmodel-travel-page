@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    background-color: aliceblue;
+}
+
+body {
+    background-color: lightgrey;
+    /* border: 1px solid green ; */
+    margin: 25px;
+    padding: 25px;
+    width: 1500px;
+    height: 800px;
+   
+}
+nav {
+    margin: 15px;
+    /* border: 1px solid ; */
+}
+
+ul {
+    list-style-type: none ;
+    /* display: inline-block; */
+    margin: 35px 40px;
+    padding: 0;
+    overflow: hidden;
+    
+}
+li {
+    /* display: inline-block; */
+    float: right;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 8px;
+    
+}
+
+li a:hover {
+    font-weight: bold;
+}
+
+.content {
+    margin: 185px 15px 45px 15px;
+}
+
+blockquote {
+    background-color: lightgrey;
+    padding: 25px;
+    margin: 45px 15px;
+    text-align: right;
+}
+
+/* neededthe negativ margin because of the backgr. img */
+.background {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/beach.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    /* margin-top:-15px ; */
+}
+
+.div-left {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+
+}
+
+
+
+
+
